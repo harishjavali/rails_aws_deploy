@@ -12,7 +12,16 @@ gem "sprockets-rails"
 gem "mysql2", "~> 0.5"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", ">= 5.0"
+# gem "puma", ">= 5.0"
+# Gemfile
+gem 'puma', '~> 6.0'
+
+# Gemfile
+# gem 'puma', '~> 5.6.8'
+# Gemfile
+# gem 'puma', '~> 6.0'
+
+
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails"
@@ -61,7 +70,7 @@ group :development do
   gem "capistrano-rails", "~> 1.6", require: false
   gem 'capistrano-bundler', '~> 2.1'
   gem 'capistrano-rvm', '~> 0.1.2'
-  gem 'capistrano3-puma', '~> 5.2'
+  gem 'capistrano3-puma'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
