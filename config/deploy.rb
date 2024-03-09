@@ -13,7 +13,7 @@ set :deploy_to, "/home/deploy/aws_deploy_test"
 set :pty, true
 
 
-
+set :bundle_install_flags, '--verbose --no-deployment'
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
