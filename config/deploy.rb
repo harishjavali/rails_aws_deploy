@@ -25,7 +25,7 @@ set :bundle_install_flags, '--verbose --no-deployment'
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/database.yml", 'config/credentials.yml.enc'
+append :linked_files, "config/database.yml", 'config/credentials.yml.enc', 'master.key'
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "vendor", "storage", "public/uploads"
