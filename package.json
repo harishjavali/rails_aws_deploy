@@ -5,7 +5,7 @@
   "repository": "git@github.com:harishjavali/rails_aws_deploy.git",
   "license": "MIT",
   "scripts": {
-    "build": ""
+    "build": "echo 'No build process defined'"
   }
 }
 
