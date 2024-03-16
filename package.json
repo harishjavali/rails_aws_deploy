@@ -1,12 +1,8 @@
 {
-  "name": "scafold_app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:harishjavali/rails_aws_deploy.git",
-  "license": "MIT",
-  "scripts": {
-    "build": "echo 'No build process defined'"
+    "name": "scafold_app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:harishjavali/rails_aws_deploy.git",
+    "license": "MIT"
   }
-}
-
-
+  
