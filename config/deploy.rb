@@ -25,7 +25,7 @@ set :bundle_install_flags, '--verbose --no-deployment'
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/database.yml", 'config/credentials.yml.enc', 'config/master.key'
+append :linked_files, "config/database.yml", 'config/secrets.yml'
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "vendor", "storage", "public/uploads"
@@ -66,7 +66,7 @@ namespace :deploy do
         # within release_path do
         #   execute :rake, 'cache:clear'
         # end
-      end
+      end 
     end
   
   end
